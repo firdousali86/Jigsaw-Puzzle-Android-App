@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firdous.makepic.makepicture.GridFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.firdous.makepic.makepicture.MyLayout
+        android:id="@+id/parentLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box0"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="0"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box1"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="1"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box2"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="2"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box3"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="3"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box4"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="4"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box5"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="5"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box6"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="6"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box7"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="7"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            <com.firdous.makepic.makepicture.GridCell
+                android:id="@+id/box8"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:tag="8"
+                android:clickable="true"></com.firdous.makepic.makepicture.GridCell>
+            </LinearLayout>
+    </com.firdous.makepic.makepicture.MyLayout>
+</FrameLayout>
